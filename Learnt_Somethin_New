@@ -1,0 +1,24 @@
+Implemented thw whole algorithm for merge sort, it was basically a task/exercise.
+I KNEW HOW THE ALGO WAS IMPLEMENTED BUT I NEVER MADE IT'S ALGORITHM ON MY OWN.
+Where you had 2 function merge_sort(normal as always which had the list/array) and the second one merge(which had 2 inputs for 2 sliced list from the merge_sort).
+the merge was the main function where we had to do things. 
+        1. The first thought was looping over both the list at the same time that if some variable lenght is lower then the list of a(the first list) and same for the second variable: 
+           then the function will check that if the element from the first list is smaller then the second one.
+        2. If the element of first list is smaller then it will append it from that specific list and increment it's index.
+        3. Else part will do the same but for the second list and it's index increment
+        4. Now may the first/second list will have some elements still in them, then condition for them -> Exactly same as in the first loop but only on a single list and then same for the second one too, if there's an extra element left.
+
+
+MERGE_SORT FUNCTION INTUITION: 
+here I had to find the middle of the given array and have a base condition so the function don't run infinitely.
+
+      BASE CONDITION: as the array was getting shorter we had to stop when it's just a single element, cause after that we can't divide the list.     if len(list) < 2 or len(list) == 1:
+                                                                                                                                                            return the list as it is.
+
+      FIND MID % SLICING PART: This one was kinda tough cause of slicing and the recursion call on the sclied list. 
+                               after finding mid i was a bit confused cause i was calling the function on it but wasn't able to pass that value to the MERGE function. WHY?
+                               THE CODE WAS LIKE : merge_sort(:mid) and merge_sort(mid:) 
+                               PROBLEM WITH THIS? I was supposed to take these use the list from [0,mid] and [mid,last], the intuition was right but i was directly giving the argument to the function without even taking the values from the original list.
+                               FIX : it was simple that i had to use {  First = merge_sort(list[:mid]) and then Second = merge_sort(list[mid:)  }, These now have the actual list not just a simple number.
+
+      RETURN THE MERGE OF THESE 2 LISTS: just returned merge(First,Second)

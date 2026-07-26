@@ -1,0 +1,3 @@
+made such a dumb mistake in a function that had selection sort implementation. Instead of sorting the element with the right index i was swapping it with inner indexing.
+then got confused why the output after every 2 elements have the same elements at index 1.
+should have retured nums[i] , nums[smaller_idx] = nums[smaller_idx] , nums[i] and did j , nums[smaller_idx] = nums[smaller_idx] , j

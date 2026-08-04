@@ -22,3 +22,13 @@ here I had to find the middle of the given array and have a base condition so th
                                FIX : it was simple that i had to use {  First = merge_sort(list[:mid]) and then Second = merge_sort(list[mid:)  }, These now have the actual list not just a simple number.
 
       RETURN THE MERGE OF THESE 2 LISTS: just returned merge(First,Second)
+
+
+MADE A ROOKIE MISTAKE IN LEETOCDE : The problem the Nim Game , fairly simple problem you just had to figure out the cases where the person looses,
+The user mean I, have to first pick, and after that the other person, so picks the last stone will win.
+After 2-3 tries I noticed that the first case in which the picker failed was 4, casue in any case if she has the pick first(she can't pick them all), so 4 is a case where the user can loose,
+after that i tried it with 3-4 multiples of 4 to see if 4 had to do something with it, and i realized in any mmultiple of 4 she will always loose, cause there is no possible way for me to win(trial n error approach).
+
+SOLUTION: Seems pretty simple, me being dumb i was looping through the number and checking if there are any multiples of 4 just give false for it, 
+          I could have used " % " operator to check in the number is divisible or not, and if it was its a false O(1), saves space too. and i was looping to make it O(n).
+Dum Dum for real

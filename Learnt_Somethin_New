@@ -32,3 +32,9 @@ after that i tried it with 3-4 multiples of 4 to see if 4 had to do something wi
 SOLUTION: Seems pretty simple, me being dumb i was looping through the number and checking if there are any multiples of 4 just give false for it, 
           I could have used " % " operator to check in the number is divisible or not, and if it was its a false O(1), saves space too. and i was looping to make it O(n).
 Dum Dum for real
+
+
+11/08/2026: Made first commit from linux, (well doesn't matter it's same at any os). 
+           But learnt that i can set the url of your repo if you forgot to add it in origin.
+           the command was git remote set-url origin (just removed add). 
+           And yeah Happy Birthday Dawg. (to me obv!). 

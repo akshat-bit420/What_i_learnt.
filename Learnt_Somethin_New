@@ -8,6 +8,7 @@ the merge was the main function where we had to do things.
         3. Else part will do the same but for the second list and it's index increment
         4. Now may the first/second list will have some elements still in them, then condition for them -> Exactly same as in the first loop but only on a single list and then same for the second one too, if there's an extra element left.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 MERGE_SORT FUNCTION INTUITION: 
 here I had to find the middle of the given array and have a base condition so the function don't run infinitely.
@@ -23,6 +24,7 @@ here I had to find the middle of the given array and have a base condition so th
 
       RETURN THE MERGE OF THESE 2 LISTS: just returned merge(First,Second)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 MADE A ROOKIE MISTAKE IN LEETOCDE : The problem the Nim Game , fairly simple problem you just had to figure out the cases where the person looses,
 The user mean I, have to first pick, and after that the other person, so picks the last stone will win.
@@ -33,8 +35,19 @@ SOLUTION: Seems pretty simple, me being dumb i was looping through the number an
           I could have used " % " operator to check in the number is divisible or not, and if it was its a false O(1), saves space too. and i was looping to make it O(n).
 Dum Dum for real
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 11/08/2026: Made first commit from linux, (well doesn't matter it's same at any os). 
            But learnt that i can set the url of your repo if you forgot to add it in origin.
            the command was git remote set-url origin (just removed add). 
            And yeah Happy Birthday Dawg. (to me obv!). 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+18/08/2026: Will start doing dsa on a regular basic, for now i can do arrays,linked lists, queues and stuff. 
+            would skip trees, graphs cause not comfortable enough, but eventually will do them to. 
+            GOAL : The goal is to solve atleast 200 problems by the end of the year so i can put it on my resume. 
+            HOW WILL I DO IT: Will follow a video with over 60-70 problems till linkedlist to get the idea/intuition,
+            of how to approach a problem rather then raw doging it. Obv. will try to solve them on my own first to see,
+            how close can i to the solution without cheating. 
+            RULE: No AI help for the first 200 problems even if i get stuck to a problem for a week, maybe watch the youtube tutorials but only when i have lost all the hopes.

@@ -1,1 +1,15 @@
 PROBLEM SOLVING AND STUFF
+
+
+1. Contain Duplicate: 
+GIVEN AN ARRAY OF SOME LENGHT, WE HAVE TO FIND THAT THE ARRAY CONTAINS ANY DUPLICATES OF ANY NUMBERS OR NOT
+** TIME CONSTRAINT ** - 1 <= nums.length <= 105  ,  -109 <= nums[i] <= 109
+
+INTUITION: SORT THE GIVEN ARRAY SO ANY DUPLICATES ARE CLOSE TO EACHOTHER.
+then simply check if the i'th element is qual to i + 1'th element and if yes then return ture, else its false obv. 
+used merge sort and made a ton of variables, will try to use a method without using more variables so it takes less time, 
+thinking to implement the counter/frequency function from python in c so then if an element occurence is more then one return true. 
+
+
+
+OUTPUT : Easy problem, just need to keep that in mind that i can use merge sort without the extra allocation of memory. 

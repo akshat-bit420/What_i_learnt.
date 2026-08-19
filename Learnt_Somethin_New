@@ -51,3 +51,11 @@ Dum Dum for real
             of how to approach a problem rather then raw doging it. Obv. will try to solve them on my own first to see,
             how close can i to the solution without cheating. 
             RULE: No AI help for the first 200 problems even if i get stuck to a problem for a week, maybe watch the youtube tutorials but only when i have lost all the hopes.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+19/08/2026: Was building a system programming project from the last week, cause i was unable to figure out how malloc and free works,
+            took the inspo from K&R book from chapter 8 where they dicuss about a small and simple wokring allocator for single threaded
+            memory. watched a video explaining how it was working then tweaked the code to run into any os, cause it was using Unix specifically
+            NEXT GOAL : I really liked the project i think i will make a bit more advanced version of it, which can handle multi threaded memory 
+            inputs and will try to reduce the search time complexity.

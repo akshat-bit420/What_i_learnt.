@@ -59,3 +59,15 @@ Dum Dum for real
             memory. watched a video explaining how it was working then tweaked the code to run into any os, cause it was using Unix specifically
             NEXT GOAL : I really liked the project i think i will make a bit more advanced version of it, which can handle multi threaded memory 
             inputs and will try to reduce the search time complexity.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+09/09/2026 : Long time man, gotta stay consistent.
+             So today's problem was from Hackerrank's python, an easy one. there were 2 set of list of strings, and we had to check if the sub_str is same as the string(list),
+             although question was easy the thing that made me switch was, if the main string is " ABCDCDC " and sub_str is " CDC ", it should return the count = 2,
+             my asnwer was making it 1, so not a complete answer. Then I checked the solution and got to know that i can use slicing, cause they are lists and i can straight up,
+             check if the sliced list is equal to sub_ste or not, 
+             So the core logic was like, for i in range( len(string) - len(sub_str) + 1): # what this does is, that it removes the possibility of getting same elements in the iterations.
+                                                if ( string[ i : len(sub_str) + i] == sub_str ) 
+                                                        count += 1
+                                         return count.

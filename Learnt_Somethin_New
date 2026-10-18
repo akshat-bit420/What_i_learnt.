@@ -71,3 +71,13 @@ Dum Dum for real
                                                 if ( string[ i : len(sub_str) + i] == sub_str ) 
                                                         count += 1
                                          return count.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+14/10/2026 to 18/10/2026 : Not been here for a month almost due to exams and laziness, but will be starting with some projects.
+                             1. Folio it will be a vibecoded live project just to learn more about how a decent amount of big project works together, The main project 
+                                will be the TUI Music Player, which will be able to import your playlists from youtube music or spotify(idk about this one). A great project 
+                                imo and will also build a terminal game with 60 FPS.
+                             2. Goals for the remaining time is to attend 1-2 hackathon and build some product or somethin, with starting with learning core things for 
+                                upcoming exam LEEE(gotta prepare hard for it can't make myself lose this opportunity).
+                             3. Gotta start doing DSA to be ready for internships i can't lose more time dawg. Please do this
